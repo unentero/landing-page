@@ -1,11 +1,12 @@
+*{
+    font-family: system-ui;
+}
 .header{
     display: flex;
     background-color: #1F2937;
     align-items: center;
     justify-content: space-around;
     color:#F9FAF8;
-    font-family: system-ui;
-    padding:8px;
 }
 .logo{
     font-size: 24px;
@@ -20,7 +21,7 @@
 ul{
     display: flex;
     list-style: none;
-    gap:8px;
+    gap:12px;
 }
 a {
     color:#E5E7EB;
@@ -29,7 +30,6 @@ a {
     display: flex;
     background-color: #1F2937;
     color:#F9FAF8;
-    font-family: system-ui;
     justify-content: space-around;
 
 }
@@ -60,4 +60,32 @@ font-weight: 900;
     width: auto;
     align-items: center;
     padding:20px
+}
+.info{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+.title-two{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;    
+}
+.examples{
+    display: flex;
+    justify-content: space-around;
+}
+.example{
+    padding:5px;
+    justify-content: center;
+
+}
+.show-image{
+    height: 200px;
+    width:auto;
+}
+.img-desc{
+    color:#515254;
+    font-size: 10px;
+    padding-left:20px;
 }
