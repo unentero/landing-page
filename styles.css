@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    color:#F9FAF8;
+    font-family: system-ui,Roboto;
+    
+    padding:8px;
+}
+.logo{
+    font-size: 24px;
+    color:#F9FAF8;
+    justify-content: left;
+}
+.links{
+    font-size: 18px;
+    color:#E5E7EB;
+    justify-content: right;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:8px;
+}
+a {
+    color:#E5E7EB;
+}
